@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox and Grid Practice</title>
+
+    <style>
+        .container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+        }
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            width: 200px;
+            background-color: navajowhite;
+            border-radius: 50%;
+        }
+        .item4{
+            order: -1;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <h1>Flexbox and Grid Practice</h1>
+    <div class="container">
+        <div class="box item1">
+            <p>box-1</p>
+        </div>
+        <div class="box item2">
+            <p>box-2</p>
+        </div>
+        <div class="box item3">
+            <p>box-3</p>
+        </div>
+        <div class="box item4">
+            <p>box-4</p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
